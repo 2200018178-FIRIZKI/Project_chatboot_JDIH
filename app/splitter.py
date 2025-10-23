@@ -1,10 +1,7 @@
 
 # Chunking teks: RecursiveCharacterTextSplitter
 
-try:
-	from langchain.text_splitter import RecursiveCharacterTextSplitter
-except ImportError:
-	from langchain.text_splitter import CharacterTextSplitter as RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def chunk_texts(pages, chunk_size=1000, chunk_overlap=120, keep_separator=True):
 	"""
