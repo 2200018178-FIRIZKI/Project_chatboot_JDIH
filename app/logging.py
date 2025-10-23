@@ -1,0 +1,1 @@
+# Logging QA ke PostgreSQL

@@ -1,0 +1,13 @@
+langchain
+qdrant-client
+psycopg2-binary
+pypdf
+python-dotenv
+sqlalchemy
+fastapi
+uvicorn
+openai
+sentence-transformers
+python-multipart
+flake8
+pytest

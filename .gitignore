@@ -1,0 +1,26 @@
+# Python venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Data
+/data/
+
+# Config
+.env
+config/*.local.*
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
