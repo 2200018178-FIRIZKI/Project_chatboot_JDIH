@@ -20,7 +20,7 @@ conn = psycopg2.connect(
 )
 cur = conn.cursor()
 cur.execute("SELECT chunk_id, doc_id, page, chunk_index, text FROM chunks")
-rows = cur.fetchall()
+rows = cur.fetchall() #list of tuples
 
 # Buat collection jika belum ada
 collections = qdrant.get_collections().collections

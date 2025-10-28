@@ -7,8 +7,8 @@
 | Metadata dokumen & chunk tersimpan ke PostgreSQL | ✅ |
 | Pengujian insert & koneksi database sukses | ✅ |
 | Total chunk hasil pipeline = 66 (sudah diverifikasi) | ✅ |
-| Embedding tersimpan ke Qdrant (collection dibuat + index OK) | ❌ |
-| Integrasi Qdrant (vectorstore) & retrieval pipeline | ❌ |
+| Embedding tersimpan ke Qdrant (collection dibuat + index OK) | ✅ |
+| Integrasi Qdrant (vectorstore) & retrieval pipeline | ✅ |
 | Retriever: k=4 + MMR (jika ada) + threshold 0.25–0.30 | ❌ |
 | Prompt 4.1/4.2 terpasang | ❌ |
 | Fallback “tidak ditemukan” jika skor rendah | ❌ |

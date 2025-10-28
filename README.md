@@ -23,5 +23,14 @@ Chatbot yang hanya menjawab berdasarkan PDF yang diindeks. Arsitektur modular, p
 3. Edit config di `config/`
 4. Jalankan pipeline di `app/`
 
-## Lisensi
-MIT
+## Contoh Pertanyaan
+Beberapa contoh pertanyaan yang bisa Anda masukkan saat menjalankan pipeline RAG chatbot PDF:
+- Apa isi utama dokumen ini?
+- Bagaimana prosedur pengajuan izin?
+- Siapa yang berwenang dalam proses ini?
+- Apa syarat administrasi yang harus dipenuhi?
+- Jelaskan ketentuan pasal 5!
+- Bagaimana mekanisme peninjauan ulang?
+- Apa saja hak dan kewajiban pemohon?
+- Kapan dokumen ini mulai berlaku?
+
